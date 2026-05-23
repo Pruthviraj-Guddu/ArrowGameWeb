@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topbar {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#game {
+  display: grid;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.cell {
+  width: 70px;
+  height: 70px;
+  background: #1e293b;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  cursor: pointer;
+  transition: 0.2s;
+  user-select: none;
+}
+
+.cell:hover {
+  transform: scale(1.05);
+  background: #334155;
+}
+
+.empty {
+  background: transparent;
+  cursor: default;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background: #3b82f6;
+  border: none;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media(max-width: 600px){
+  .cell{
+    width: 52px;
+    height: 52px;
+    font-size: 24px;
+  }
+}
