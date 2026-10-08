@@ -37,7 +37,7 @@ The goal is to clear the board by clicking arrows and making them escape in the 
 ## 📁 Project Structure
 
 ```
-Arrow-Escape/
+ArrowGameWeb/
 │
 ├── index.html      # Main game page
 ├── style.css       # Game styling
@@ -62,7 +62,7 @@ git clone https://github.com/Pruthviraj-Guddu/ArrowGameWeb.git
 Navigate to the project folder:
 
 ```
-cd arrow-escape
+cd ArrowGameWeb
 ```
 
 ### 3\. Run the game
